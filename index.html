@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <title>Spotify-Clone</title>
+</head>
+
+<body>
+
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img width="30" class="invert" src="img/close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded  p-1">
+                <div class="logo"><img width="125" class="invert" src="img/logo.svg" alt="Logo"></div>
+                <ul>
+                    <li class="text-home"><img class="invert" src="img/home.svg" alt="Home">Home</li>
+                    <li class="text-search"><img class="invert" src="img/search.svg" alt="Search">Search</li>
+
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded m-1">
+                <div class="heading">
+                    <div class="yourlibrary flex"><img class=" playlistimg invert" src="img/playlist.svg" alt="">
+                        <h2>Your Library</h2>
+                    </div>
+                    <img class=" plus invert" src="img/plus.svg" alt="">
+                </div>
+
+                <div class="artists">
+                    <div class="bb">Playlists</div>
+                    <div class="bb">Artists</div>
+                    <div class="bb">Albums</div>
+                    <div class="bb">Podcasts & Shows</div>
+                </div>
+
+
+                <div class="songList">
+                    <ul>
+
+
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <div class="right rounded bg-grey">
+            <div class="header">
+                <div class="nav">
+
+                    <img class="invert hamburger" src="img/hamburger.svg" alt="">
+
+
+                    <svg class="cursor" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg class="cursor" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                </div>
+
+                <div class="buttons">
+                    <button class="signupbt">Sign up</button>
+                    <button class="loginbt">Log in</button>
+                </div>
+            </div>
+
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                  
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="playbar">
+
+
+
+        <div class="abovebar">
+
+            <div class="songinfo"> </div>
+
+            <div class="songbuttons">
+                <img width="18" class="invert ico ico2" src="img/shuffle.svg" alt="">
+                <i id="previous" class="fa-solid fa-backward-step ico"></i>
+                <img id="play" class="invert cursor b-m" width="42" src="img/play.svg" alt="">
+                <i id="next" class="fa-solid fa-forward-step ico"></i>
+                <img width="18" class="invert ico ico2" src="img/repeat.svg" alt="">
+            </div>
+
+            <div class="otherbuttons">
+                <img width="22" class=" invert cursor S-1" src="img/play-square.svg" alt="">
+                <img width="22" class="invert cursor S-1" src="img/mic-01.svg" alt="">
+                <img width="22" class="invert cursor S-1" src="img/playlist-01.svg" alt="">
+                <img width="22" class="invert cursor " src="img/headphones.svg" alt="">
+                <div class="volume flex">
+                    <img width="23" class="invert cursor" class="invert cursor" src="img/volume.svg" alt="">
+                    <div class="soundbar">
+                        <div class="circle2"></div>
+
+                    </div>
+                </div>
+                <img width="22" class="invert cursor S-1" src="img/tv-smart.svg" alt="">
+
+            </div>
+
+        </div>
+
+        <div class="songtimebar">
+            <div class="T-1"> </div>
+            <div class="seekbar">
+                <div class="circle"></div>
+            </div>
+            <div class="T-2"> </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/4ce95ee964.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
